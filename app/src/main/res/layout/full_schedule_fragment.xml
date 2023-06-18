@@ -33,7 +33,8 @@
         app:layout_constraintWidth_percent="0.5"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="@id/arrival_time_header"
-        app:layout_constraintEnd_toStartOf="parent"/>
+        app:layout_constraintEnd_toStartOf="parent"
+        android:background="@color/design_default_color_primary"/>
 
     <TextView
         android:id="@+id/arrival_time_header"
@@ -46,7 +47,8 @@
         app:layout_constraintWidth_percent="0.5"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toEndOf="@id/bus_stop_header"
-        app:layout_constraintEnd_toEndOf="parent"/>
+        app:layout_constraintEnd_toEndOf="parent"
+        android:background="@color/design_default_color_primary"/>
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recycler_view"
@@ -56,6 +58,6 @@
         app:layout_constraintTop_toBottomOf="@id/bus_stop_header"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"/>
+        app:layout_constraintEnd_toEndOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
